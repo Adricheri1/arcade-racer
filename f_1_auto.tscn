@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://2bbvmxy8emnp"]
+
+[ext_resource type="Texture2D" uid="uid://2glcngwws1t1" path="res://F1 auto.png" id="1_i1k8i"]
+
+[node name="F1 Auto" type="RigidBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.42109e-14, 0)
+scale = Vector2(0.0166016, 0.0136719)
+texture = ExtResource("1_i1k8i")
